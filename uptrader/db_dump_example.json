@@ -1,0 +1,306 @@
+[
+    {
+        "model": "menu_app.menu",
+        "pk": 1,
+        "fields": {
+            "title": "электроника"
+        }
+    },
+    {
+        "model": "menu_app.menu",
+        "pk": 2,
+        "fields": {
+            "title": "бытовая техника"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 1,
+        "fields": {
+            "menu": 1,
+            "label": "смартфоны и гаджеты",
+            "parent": null,
+            "path": "/phones_and_gadgets/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 2,
+        "fields": {
+            "menu": 1,
+            "label": "телевизоры",
+            "parent": null,
+            "path": "/tv/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 3,
+        "fields": {
+            "menu": 1,
+            "label": "аудиотехника",
+            "parent": null,
+            "path": "/audio/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 4,
+        "fields": {
+            "menu": 1,
+            "label": "игровые устройства",
+            "parent": null,
+            "path": "/gaming/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 6,
+        "fields": {
+            "menu": 2,
+            "label": "техника для кухни",
+            "parent": null,
+            "path": "/kitchen/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 7,
+        "fields": {
+            "menu": 2,
+            "label": "встраиваемая техника",
+            "parent": null,
+            "path": "/builtin/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 8,
+        "fields": {
+            "menu": 2,
+            "label": "техника для дома",
+            "parent": null,
+            "path": "/home/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 10,
+        "fields": {
+            "menu": 1,
+            "label": "смартфоны",
+            "parent": 1,
+            "path": "/phones/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 11,
+        "fields": {
+            "menu": 1,
+            "label": "кнопочные телефоны",
+            "parent": 1,
+            "path": "/old_phones/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 12,
+        "fields": {
+            "menu": 1,
+            "label": "аксессуары",
+            "parent": 1,
+            "path": "/accessories/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 13,
+        "fields": {
+            "menu": 1,
+            "label": "пульты ДУ",
+            "parent": 2,
+            "path": "/remote_controllers/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 14,
+        "fields": {
+            "menu": 1,
+            "label": "3D-очки",
+            "parent": 2,
+            "path": "/3d_glasses/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 15,
+        "fields": {
+            "menu": 1,
+            "label": "акустические системы",
+            "parent": 3,
+            "path": "/acoustic_systems/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 16,
+        "fields": {
+            "menu": 1,
+            "label": "наушники",
+            "parent": 3,
+            "path": "/headphones/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 17,
+        "fields": {
+            "menu": 1,
+            "label": "игровые приставки",
+            "parent": 4,
+            "path": "/consoles/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 18,
+        "fields": {
+            "menu": 2,
+            "label": "холодильники",
+            "parent": 6,
+            "path": "/freezers/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 19,
+        "fields": {
+            "menu": 2,
+            "label": "плиты",
+            "parent": 6,
+            "path": "/stoves/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 20,
+        "fields": {
+            "menu": 2,
+            "label": "холодильники",
+            "parent": 7,
+            "path": "/builtin_freezers/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 21,
+        "fields": {
+            "menu": 2,
+            "label": "плиты",
+            "parent": 7,
+            "path": "/builtin_stoves/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 22,
+        "fields": {
+            "menu": 2,
+            "label": "пылесосы",
+            "parent": 8,
+            "path": "/vacuum_cleaners/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 23,
+        "fields": {
+            "menu": 1,
+            "label": "samsung",
+            "parent": 10,
+            "path": "/samsung_phones/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 24,
+        "fields": {
+            "menu": 1,
+            "label": "iphon",
+            "parent": 10,
+            "path": "/iphons/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 25,
+        "fields": {
+            "menu": 1,
+            "label": "playstation",
+            "parent": 17,
+            "path": "/playstation/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 26,
+        "fields": {
+            "menu": 1,
+            "label": "xbox",
+            "parent": 17,
+            "path": "/xbox/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 27,
+        "fields": {
+            "menu": 1,
+            "label": "ps3",
+            "parent": 25,
+            "path": "/ps3/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 28,
+        "fields": {
+            "menu": 1,
+            "label": "ps4",
+            "parent": 25,
+            "path": "/ps4/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 29,
+        "fields": {
+            "menu": 1,
+            "label": "ps5",
+            "parent": 25,
+            "path": "/ps5/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 30,
+        "fields": {
+            "menu": 2,
+            "label": "samsung",
+            "parent": 22,
+            "path": "/samsung_vacuum/"
+        }
+    },
+    {
+        "model": "menu_app.menuitem",
+        "pk": 31,
+        "fields": {
+            "menu": 2,
+            "label": "not samsung",
+            "parent": 22,
+            "path": "/vacuums_not_samsung/"
+        }
+    }
+]

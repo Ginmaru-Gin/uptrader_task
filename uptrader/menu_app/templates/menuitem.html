@@ -1,0 +1,22 @@
+{% load get_item %}
+
+{% with tree_item=menu_tree|get_item:root_id %}
+  {% if root_id == 0 %}
+    {% for id in tree_item.children %}
+        {% include 'menuitem.html' with root_id=id %}
+    {% endfor %}
+  {% else %}
+    <ul class="submenu">
+      <li>
+        <a {% if tree_item.item.is_active %} class="active" {% endif %} href={{ tree_item.item.path }}>
+          {{ tree_item.item.label }}
+        </a>
+        <div {% if tree_item.item.is_active %} class="show" {% else %} class="hide" {% endif %}>
+          {% for id in tree_item.children %}
+            {% include 'menuitem.html' with root_id=id %}
+          {% endfor %}
+        </div>
+      </li>
+    </ul>
+  {% endif %}
+{% endwith %}
